@@ -7,4 +7,4 @@ The migaku takes the env files from rune-keeper. The runes (env files) needed fo
  - The runes should be saved as enc file using the encryption command given below
  - The name of the enc file will be same as the rune with an added extension of .enc
     
-    `openssl enc -aes-256-cbc -e -pbkdf2 -salt -in "$SOURCE_FILE" -out "$ENCRYPTED_FILE" -pass stdin`
+    `openssl enc -aes-256-cbc -e -pbkdf2 -salt -in ".env" -out ".enc" -pass stdin`
